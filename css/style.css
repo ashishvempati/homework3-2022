@@ -88,7 +88,7 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  position:relative;
+  position:absolute;
   left: -500px;
 }
 
@@ -107,8 +107,10 @@ a:focus{
 
 /* Requirements 6-10 here: */
 .intro{
-  background: #858585;
-  background: #707070;
+  background-color: #858585;
+  /* background-color: #707070;
+  background-color: #DDDDDD;
+  background-color: #B3B3B3; */
   background: url("../images/header.jpg");
   min-height: 400px;
   background-attachment: fixed;
@@ -179,7 +181,7 @@ img{
   /* Requirements 12-15 here: */
 
 a.skip:focus{
-  position:relative;
+  position:absolute;
   left:0px;
   top: 20px;
 }
